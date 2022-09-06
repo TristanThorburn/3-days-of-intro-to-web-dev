@@ -1,0 +1,123 @@
+html{
+    width:auto;
+}
+header li{
+    background-color:lightblue;
+    display:inline;
+    white-space: nowrap;
+    margin:20px;
+    padding:20px;
+    font-size:20px;
+}
+h1{
+    font-size:40px;
+    color:lightblue;
+    background: #494848;
+    text-align: center;
+}
+body{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%) fixed;
+}
+.introdescript{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(158,158,158,1) 100%);
+    color:darkblue;
+    font-weight:bold;
+    font-size:24px;
+    text-align:center;
+}
+
+.learning{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(158,158,158,1) 100%);
+    font-size:18px;
+    color:darkblue;
+    text-align:center;
+}
+.placedkitten{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:400px;
+}
+.lorem{
+    text-align:center;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(158,158,158,1) 100%);
+    color:darkblue;
+    border:6px dashed powderblue;
+}
+.RIGHTHERE{
+    font-size:3rem;
+}
+.JUMP{
+    font-size:2rem;
+}
+.matchingc{
+    color:cyan;
+    background-color:black;
+    padding-left:5px;
+    padding-right:5px;
+}
+.MATCHINGA{
+    color:aqua;
+    background-color:black;
+    padding-left:5px;
+    padding-right:5px;
+}
+section li{
+    white-space: nowrap;
+    display:inline;
+    padding-left:5%;
+    padding-right:5%;
+    background-color:lightpink;
+    height: 150px;
+    width: 150px;
+    margin:5%;
+    border-radius: 10px 40px;
+}
+.guessing{
+    text-align:center;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(210,210,255,1) 100%);
+    font-size:18px;
+    color:rebeccapurple;
+}
+.gradient-image {
+    background-image:
+        linear-gradient(to top right,
+            rgba(61, 81, 211, 0.5),
+            rgba(243, 103, 224, 0.5)),
+            url(./Intro-Assets/placedoggo.jpg);
+    background-size: cover;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    height:400px;
+}
+.fixed {
+    background-image: url("./Intro-Assets/placebear.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    height:400px;
+    text-align:center;
+    color:darkred;
+    font-weight:bold;
+    font-size:40px;
+}
+aside{
+    background-color:lightblue;
+    color:purple;
+    text-align:center;
+}
+hr{
+    height:2px;
+    background-color:brown;
+    border-color:brown
+}
+footer{
+    background: #494848;
+    color:lightblue;
+    text-align:center;
+}
